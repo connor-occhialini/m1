@@ -1,4 +1,2 @@
 # Midterm 1 - Takehome Project - PHYS 2200
-The above code uses two series, the Leibniz series and the Bailey-Borwein-Plouffe series, to approximate PI to within an absolute
-error of 10e-6.  Uses the number of interations required for this accuracy, the relative times to compute our approximation are 
-compared for both series. 
+The above code uses two series, the Leibniz series and the Bailey-Borwein-Plouffe series, to approximate PI to within an absolute error of 10e-6.  The code uses the number of interations required for this accuracy and compared the times required to compute these approximations for each series.  The file "driver.c" is the one in which all computations are done.  Function declarations for the series are found in "pi_funs.h".  Appropriate timing related functions can be found in "adjust.c", "timer.h" and "timer.c".
